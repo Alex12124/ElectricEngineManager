@@ -1,0 +1,19 @@
+syntax = "proto3";
+import "start.proto";
+import "stop.proto";
+
+package message;
+
+message Request {
+    oneof Req {
+        StartRequest start_req = 1;
+        StopRequest stop_req = 2;
+    }
+}
+
+message Response {
+    oneof Res {
+        StartResponse start_res = 1;
+        StopResponse stop_res = 2;
+    }
+}

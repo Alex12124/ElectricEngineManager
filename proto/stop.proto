@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package message;
+
+message StopRequest {
+
+}
+
+message StopResponse {
+  bool stopped = 1;
+}

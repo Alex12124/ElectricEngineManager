@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package message;
+
+message StartRequest {
+  string engine_name = 1;
+}
+
+enum StartStatus {
+  kStatusNoSpecified = 0;
+  kOk = 1;
+  kNoSuchEngineError = 2;
+  kAlreadyStarted  = 3;
+}
+
+message StartResponse {
+  StartStatus status = 1;
+}
