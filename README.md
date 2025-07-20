@@ -1,7 +1,7 @@
 # ElectricEngineManager
 Графическое приложение на qt6 для управления электрическим
 двигателем как локально так и удаленно. Симуляция электрического двигателя выполняется своей
-библиотекой [AsyncElectricEngineLib](https://github.com/Alex12124/AsyncElectricEngineLib). Также предоставляется клиент для передачи сообщений для удаленного управления.
+библиотекой [AsyncElectricEngineLib](https://github.com/Alex12124/AsyncElectricEngineLib). Также предоставляется [клиент](https://github.com/Alex12124/ElectricEngineManagerClient) для передачи сообщений для удаленного управления.
 
 Локально двигатель управляется кнопкой
 "Подать питание" или "Снять питание"
